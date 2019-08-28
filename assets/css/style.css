@@ -305,6 +305,7 @@ h3, h2 {
 
 .PortBox h3{
     background-color: #4aaaa5;
+    text-align: center;
 }
 
 
@@ -365,12 +366,7 @@ h1{
     left: right;
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
-}
+
 
 
 
@@ -409,11 +405,18 @@ h2{
     text-indent: 15px;
 }
 
-h3{
-    background-color: #4aaaa5;
-    color: white;
+.PortBox h3{ 
+    color: #ffffff;
+    background: #4aaaa5;
     width: 300px;
-    position: relative;
+    position: absolute;
+    text-align: center;
+    border-bottom: 0;
+    line-height: 30px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    
 }
 
 .PortBox {
@@ -421,11 +424,10 @@ h3{
     float: left;
     width: 274px;
     margin: 20px 0 25px;
+    position: relative;
 }
 
-.PortBox:nth-child(even) {
-    margin-right: 40px;
-}
+
 
 .PortBox img {
     border: 0 none;
